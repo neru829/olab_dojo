@@ -9,7 +9,7 @@ $(function(){
             var height = $(window).height();
             //ターゲットまでスクロールするとフェードインする
             if (scroll > target - height){
-                //クラスを付与
+                //activeというクラスを付与
                 $(this).addClass('active');
             }
         });
