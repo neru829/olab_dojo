@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    background-color: #9dc3eb;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    color: #f5faff;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 8px;
+    padding: 80px 0px;
+}
+
+.container{
+    overflow: hidden;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.myphoto{
+    border: 3px solid transparent;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.icon{
+    margin: 16px;
+}
+
+.sns img{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.sns img:hover{
+    opacity: 0.5;
+}
+
+.contents{
+    color: #f5faff;
+    margin: 50px;
+}
+
+p{
+    display: inline-block;
+    text-align: left;
+}
+
+.works{
+    color: #f5faff;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 8px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+h2{
+    text-align: initial;
+    padding: 0.25em 0.5em;
+    color: #f5faff;
+    background-color: transparent;
+    border-left: solid 5px #f5faff;;
+}
+
+.works img{
+    width: 240px;
+    height: 120px;
+    margin: 48px;
+}
+
+.animation{
+    opacity : 0;
+    visibility: hidden;
+    transition: 1.5s;
+    transform: translateY(40px);
+}
+
+.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.work{
+    overflow: hidden;
+    position: relative;
+}
+
+.work .cap{
+    color: #f5faff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    letter-spacing: 3px;
+}
+.work .mask {
+    width: 240px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: rgba(0,0,0,0.8);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.work:hover .mask {
+    opacity: 1;
+}
+
+footer{
+    color: #f5faff;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    margin-top: auto;
+}

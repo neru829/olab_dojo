@@ -1,0 +1,29 @@
+body{
+    background-color: #171f2b;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.date{
+    font-size: 40px;
+    color: #f0f6ff;
+    text-shadow: 0 0 10px #87b7ff,0 0 15px #87b7ff;
+    margin-bottom: 0px;
+    letter-spacing: 8px;
+}
+
+.clock{
+    font-size: 112px;
+    color: #f0f6ff;
+    text-shadow: 0 0 10px #87b7ff,0 0 15px #87b7ff;
+    margin-top: 0px;
+    letter-spacing: 16px;
+}
